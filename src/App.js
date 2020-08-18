@@ -1,26 +1,10 @@
-import React, { useState } from "react";
-import logo from "./logo.svg";
+import React, { useState, useEffect } from "react";
+// import logo from "./logo.svg";
+import ReactDOM from "react-dom";
 import "./App.css";
 
-const useInput = (initialValue) => {
-  const [value, setValue] = useState(initialValue);
-  const onChange = (event) => {
-    const {
-      target: { value },
-    } = event;
-    setValue(value);
-  };
-  return { value, onChange };
-};
-
 const App = () => {
-  const name = useInput("Mr. ");
-  return (
-    <div className="App">
-      <h1>Hello</h1>
-      <input placeholder="Name" {...name}></input>
-    </div>
-  );
+  return <div className="App"></div>;
 };
 
 export default App;
