@@ -1,6 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
-// import logo from "./logo.svg";
-import ReactDOM from "react-dom";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 
 const App = () => {
