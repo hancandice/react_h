@@ -1,11 +1,12 @@
 {
-  "name": "reacthooks",
+  "name": "reacthoooks",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
+  "peerDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.20.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3"
@@ -30,5 +31,22 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Practice React Hooks",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hancandice/reacthooks.git"
+  },
+  "author": "Candice Jeeyoung Han <jeeyoung.han82@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hancandice/reacthooks/issues"
+  },
+  "homepage": "https://github.com/hancandice/reacthooks#readme",
+  "keywords": [
+    "react",
+    "hooks"
+  ]
 }
